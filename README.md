@@ -27,6 +27,7 @@ To run this project, you'll need the following installed on your machine:
 * pip package manager
 
 Configuration
+
 The configuration for the project can be found in the config.py file. You may need to update the following settings:
 
 * DATABASE_URL: The connection URL for your PostgreSQL database.
