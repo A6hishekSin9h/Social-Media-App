@@ -1,8 +1,5 @@
-from app.config import settings
 version: 1
-env:
-  - key: DATABASE_URL
-    # Your database connection string here
-    value: postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}:{settings.database_port}/{settings.database_name}
+buildCommand: pip install -r requirements.txt
+startCommand: python app.py
 deploy:
   - command: alembic upgrade head
