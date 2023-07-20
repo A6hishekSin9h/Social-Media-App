@@ -1,5 +1,3 @@
 version: 1
-buildCommand: pip install -r requirements.txt
-startCommand: python app.py
 deploy:
   - command: alembic upgrade head
