@@ -31,6 +31,7 @@ async def startup() -> None:
     database = app.state.database
     if not database.is_connected:
         await database.connect()
+        
 origins = ["*"]
 
 app.add_middleware(

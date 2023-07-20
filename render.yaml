@@ -1,8 +1,0 @@
-
-version: 1
-env:
-  - key: DATABASE_URL
-    # Your database connection string here
-    
-deploy:
-  - command: alembic upgrade head
