@@ -1,4 +1,4 @@
-
+from app.config import settings
 version: 1
 env:
   - key: DATABASE_URL
