@@ -4,7 +4,8 @@ Link: https://social-media-backend-5fo6.onrender.com/docs
 Steps to try it out:
 1. create your user account using "create user".
 2. login using the credentials.
-3. create, uodate and delete your posts.
+3. create, update and delete your posts.
+4. you can also vote/unvote others post by sending 1 and 0.
 
 This is the backend component of a social media app built using Python and FastAPI. It utilizes PostgreSQL as the database server and SQLAlchemy for performing database operations. The app includes user authentication and authorization using JWT tokens, as well as a voting feature where users can vote or unvote a post.
 
