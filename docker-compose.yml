@@ -1,0 +1,28 @@
+version: "3"
+services:
+  api:
+    build: .
+    ports: 
+      - 8000:8000
+    # env_file:
+    #   - ./.env
+    environment:  
+      - DATABASE_HOSTNAME=postgres
+      - DATABASE_PORT=5432
+      - DATABASE_PASSWORD=passw6767
+      - DATABASE_NAME=Social Media App
+      - DATABASE_USERNAME=postgres
+      - SECRET_KEY=e07dd8c1120e41c0f140b0eec131473b93392ce0909fec44197f92c82488b236
+      - ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=password123
+      - POSTGRES_DB=socialmediaapp
+    
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+
+volumes:
+  postgres-db:
