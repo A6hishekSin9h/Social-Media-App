@@ -2,6 +2,9 @@
 Link: https://social-media-backend-5fo6.onrender.com/docs
 
 Note: The website takes some time to load (appx ~ 30-40 secs) as it is hosted under a free instance.
+![image](https://github.com/A6hishekSin9h/Social-Media-App/assets/43134959/4918a520-ad79-433f-b1f2-f0bab85cc9bf)
+
+![image](https://github.com/A6hishekSin9h/Social-Media-App/assets/43134959/52b04e9a-a3e1-4978-93a8-e1ca27507beb)
 
 # Social Media App Backend
 Steps to try it out:
